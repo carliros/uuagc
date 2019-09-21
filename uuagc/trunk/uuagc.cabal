@@ -21,6 +21,9 @@ extra-source-files: src-ag/ExecutionPlanCommon.ag
 extra-source-files: src-ag/ExecutionPlanPre.ag
 extra-source-files: src-ag/LOAG/Prepare.ag
 
+custom-setup
+  setup-depends: base, Cabal
+
 -- This flag will be set by Setup.hs, use
 -- cabal configure --ghc-options="-DEXTERNAL_UUAGC"
 flag bootstrap_external
